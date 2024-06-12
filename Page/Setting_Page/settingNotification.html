@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="/Page/Setting_Page/CSS/settingMain.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/Element/menuheader/asset/base.css">
+    <link rel="stylesheet" href="/Element/menuheader/asset/main.css">
+    <link rel="stylesheet" href="/Element/Music-player/CSS/music_player.css">
+</head>
+    
+    
+<body>
+  <main>
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="col-2" id="lnav-section">
+          <div>
+              <a href="../Home/home.html" class="nav__logo">
+                <img src="../../Element/menuheader/asset/img/logo.png" alt="" class="nav__logo-icon">
+                      <span class="nav__logo-text">LOGO</span>
+              </a>
+              
+              <ul class="nav__list">
+                  <li>
+                      <a href="../Home/home.html" title="Home" class="nav__link active">
+                          <i class="nav__icon fa-solid fa-house"></i>
+                          <span class="nav__text">Home</span>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="../Discover/discover.html" title="Discover" class="nav__link active">
+                          <i class="nav__icon fa-solid fa-compass"></i>
+                          <span  class="nav__text">Discover</span>
+                      </a>
+                  </li>   
+                  <li>
+                  <a href="../Genres/Genres.html" title="Genres" class="nav__link active">
+                      <i class="nav__icon fa-solid fa-book"></i>
+                      <span class="nav__text">Genres</span>
+                      </a>
+                  </li>
+                  <li>
+                    <a href="../Library/Library.html" title="Library" class="nav__link active">
+                      <i class="nav__icon fa-solid fa-record-vinyl"></i>
+                      <span  class="nav__text">Library</span>
+                      </a>
+                  </li>
+                  <li>
+                  <a href="../Liked_Song__Page/liked.html" title="Liked Songs" class="nav__link active">
+                      <i class="nav__icon fa-solid fa-heart"></i>
+                      <span  class="nav__text">Liked Songs</span>
+                      </a>
+                  </li>
+              </ul>
+              <hr color="#212e51" width="100%" size="0.5px" />
+
+              <div class="mylist">
+                <a href="../CreatePlaylist/create.html"class="btn__create-list" >
+                  <i class="fa-solid fa-plus"></i>
+                  Create new playlist</a>
+                  <ul class="mylist-group">
+                      <li class="mylist-group-item">Playlist của Mai Anh</li>
+                      <li class="mylist-group-item">Music is my life</li>
+                      <li class="mylist-group-item">Midnights</li>
+                  </ul>
+              </div>
+              
+          </div>
+        </nav>
+        <nav class="col-8" id="content-section">
+          <!-- Navbar -->
+          <header class="header">
+            <!-- <div class="grid"> -->
+                <div class="level">
+                    <div class="level-left">
+                              <input type="text" class="form-control" placeholder="Search for songs, artists, etc">
+                              <button class="form-control-submit" type="submit"> </button>
+                    </div>
+                    <ul class="lever-right">
+                        <li class="login-container">
+                                <img src="https://avatar.talk.zdn.vn/default.jpg" alt=""  class="login-img-user" >
+                                <span class="login-img-user-name"> Đỗ Trần Mai Anh</span>
+                        </li>
+
+                        <li class="setting-item">
+                            <button class="btn tooltip-btn is-hover-circle button" >
+                              <i class="fa-solid fa-gear"></i>
+                            </button>
+                        </li>
+                    
+                    </ul>
+                </div> 
+            <!-- </div> -->
+            </header>  
+            <div class="container">
+      
+              <div class="settingMain__content">
+            
+            
+                <!-- Setting + thanh search -->
+                <div class="settingMain__title">
+                  <h1>Settings</h1>
+                  <div class="SettingMain__search">
+                      <input type="text" class="form-control" placeholder="Search...">
+                      <button class="form-control-submit" type="submit">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                          <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                        </svg>
+                      </button>
+                      
+                      <!-- <button class="btn btn-primary">Search</button> -->
+                  </div>
+                </div>
+                </div>
+                    
+                <!-- Noi dung -->
+                <div class="settingMain__wrapper">
+            
+                  <!-- Thanh tab -->
+                  <div class="settingMain__tab">
+                    <ul>
+                      <li><a class="tab" href="settingMain.html">General</a></li>
+                      <li><a class="tab" href="settingAccount.html">Account</a></li>
+                      <li><a class="tab" id="active" href="settingNotification.html">Notification</a></li>
+                      <li><a class="tab" href="settingPrivacy.html">Privacy</a></li>
+                    </ul>
+                    <hr>
+                  </div>
+                  
+            
+                  <!-- Language + btn -->
+                  <div class="settingMain__section">
+                    <div class="settingMain__section__title">
+                      <h5>Announcements</h5>
+                      <p>Show announcements about new releases</p>
+                    </div>
+                    <div class="form-check form-switch ">
+                      <label class="form-check-label" for="formSwitchCheck"></label>
+                      <input class="form-check-input" type="checkbox" id="formSwitchCheck" onclick="click_Btn()">
+                    </div>
+                  </div>
+            
+                    <!-- Explicit content + btn -->
+                    <div class="settingMain__section">
+                      <div class="settingMain__section__title">
+                        <h5>Friend Activity</h5>
+                        <p>See what your friends are playing</p>
+                      </div>
+                      <div class="form-check form-switch">
+                        <label class="form-check-label" for="formSwitchCheck"></label>
+                        <input class="form-check-input"  type="checkbox" id="formSwitchCheck" onclick="Click_Btn()">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+              <nav class="col-2" id="rnav-section">
+                <div class="rnav__list rnav__notification" id="Notification">
+                    <ul class="r-list-group">Notification
+      
+                    </ul>
+                    <!-- <span class="SeeAll">See all</span> -->
+                </div>
+                
+                <hr color="#212e51" width="80%" size="0.5rem" />
+      
+                <div class="rnav__list rnav__friend Activity" id="Friend_Activity">
+                    
+                <ul class="r-list-group">Friend Activity
+                    <li class="r-list-group-item">
+                        <img src="/Element/menuheader/asset/img/QHava.jpg" alt=""  class="r-img-user" >
+                        <div class="usercard-info">
+                            <div>
+                                <span class="img-user-name">Quỳnh Hương</span>
+                            </div>
+                            <div>
+                                <span class="song-user">Một nhà - Dalab</span>
+                            </div>
+                        </div>
+                
+                    </li>
+                    <li class="r-list-group-item">
+                        <img src="/Element/menuheader/asset/img/Namava.jpg" alt=""  class="r-img-user" >
+                        <div class="usercard-info">
+                              <div>
+                                <span class="img-user-name">Phạm Nam</span>
+                              </div>
+                              <div>
+                                <span class="song-user">Tại vì sao - MCK</span>
+                            </div>
+                        </div>
+                    </li>  
+                </ul>
+                  <!-- <span class="SeeAll">See all</span> -->
+                </div>
+                
+                <hr color="#212e51" width="80%" size="0.5px" />
+      
+                <div class="rnav__list rnav__notification">
+                  <div class="musicPlayer">
+                    <div class="songBar">
+                        <div class="songInfos">
+                            <div class="imageContainer">
+                                <img src="" class="track-art">
+                            </div>
+                            <div class="songDescription">
+                                <p class="title">Chim Sau</p>
+                                <p class="artist">MCK</p>
+                            </div>
+                        </div>
+                        <!-- <div class="icons">
+                            <i class="fa-regular fa-heart"></i>
+                        </div> -->
+                    </div>
+                    <div class="progressController">
+                        <div class="controlButtons">
+                          <span class="shuffle-btn">
+                            <i class="fa-solid fa-shuffle"></i>   
+                          </span>
+                          <span class="backward-btn">
+                            <i class="fa-solid fa-backward"></i>    
+                          </span>
+                          <span class="play-btn">
+                            <i class="fas fa-play"></i>
+                          </span>
+                          <span class="forward-btn">
+                            <i class="fa-solid fa-forward"></i>
+                          </span>
+                            <!-- <i class="play-pause fas fa-play"></i> -->
+                            <span class="repeat-btn">
+                              <i class="fa-solid fa-repeat"></i>
+                            </span>
+                            
+                        </div>
+                        <div class="progressContainer">
+                              <div id="start">0:00</div>
+                              <input type="range" min="1" max="100" value="0" class="seek_slider" >
+                              <audio class="song" src="./Music/Chimsau.mp3"></audio>
+                              <div id="end">0:00</div>
+                            
+                        </div>
+                    </div>
+                    <!-- <div class="otherFeatures">
+                        <i class="fa-solid fa-repeat"></i>
+                        <i class="fa-solid fa-repeat"></i>
+                        <i class="fa-solid fa-repeat"></i>
+                        <i class="fa-solid fa-repeat"></i>
+                    </div> -->
+                </div>
+                    <!-- <span class="SeeAll">See all</span> -->
+                </div>         
+              </nav>
+      </div>
+    </div>
+    
+
+    
+  </main>
+  <footer>
+    <!-- place footer here -->
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+
+  <script src="./JS/js.js"></script>
+</body>
+
+</html>

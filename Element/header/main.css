@@ -1,0 +1,76 @@
+* {
+   margin: 0;
+}
+.web-header{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-image: url(./hinhlol.jpg);
+    background-size: cover;
+    border-radius: 20px;
+}
+.web-info-title p {
+   font-weight: 600;
+   font-size: 2rem;
+}
+.web-header-first{
+  margin: 50px 35px;
+}
+
+
+.web-info-playlist{
+    max-width: 400px;
+}
+.web-info-playlist p {
+   line-height: 1;
+   font-size: 7rem;
+   font-weight: 600;
+}
+
+.music-content{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 15px;
+ }
+
+ #first.music-icon{
+    background: #28C6F7;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-left: 0px;
+    margin-top: 10px;
+    font-size: 22px;
+ }
+ .music-icon{
+    background: #28C6F7;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin-left: 15px;
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+ }
+
+#icon-first.icon-music{
+    display: flex;
+    position: absolute;
+    left: 35%;
+    top: 30%;
+ }
+
+ .btn-view{
+    margin: 20px ;
+ }
+
+ .btn-viewlist{ 
+    height: 30px;
+    width: 150px;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    background-color: #28C6F7;
+    color: #fff;
+ }

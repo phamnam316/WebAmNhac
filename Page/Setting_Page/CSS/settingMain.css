@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    
+}
+body {
+    background-color: #171E31;
+    color: white;
+    margin-top: 20px;
+   
+}
+
+/* General */
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0; margin: 0;
+    font-size: large;
+ 
+}
+ul > li a.tab{
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+li > a.tab:hover, a#active {
+    color: aquamarine;
+    border-bottom: 2px solid aquamarine;
+    padding-bottom: 8px;
+}
+
+hr {
+    margin: 5px 0px 5px 0px;
+}
+
+.settingMain__tab {
+    margin: 20px 0px 20px 0px;
+}
+.settingMain__section,.settingMain__title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+input.form-control {
+    box-sizing: border-box;
+    padding: 5px;
+    width: 20rem;
+    color: white;
+}
+button.form-control-submit {
+    background-color: #171E31;
+    color: white;
+    border: none;
+ 
+}
+button svg {
+    position: relative;
+    right: 35px;
+}
+.form-check-input {
+    font-size: 150%;
+}
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+div > p {
+    font-size: 1rem;
+}
+.form-control {
+    mix-blend-mode: overlay;
+    border-radius: 20px;
+    width: 30%;
+    display: inline-block;
+}
+.settingMain__section__title p {
+    font-size: 1em;
+}
+.settingMain__section__title h5 {
+    font-size: 1.25em;
+    font-style: italic;
+}
+.settingMain__section button  {
+    background-color: #171E31;
+    border: none; 
+}
+.settingMain__section a {
+    padding: 5px 7px 5px 7px;
+    font-size: 15px;
+}
+
+#Notification.active{
+    display: none;
+}
+
+#Friend_Activity.active{
+    display: none;
+}

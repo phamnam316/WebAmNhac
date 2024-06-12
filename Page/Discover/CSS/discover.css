@@ -1,0 +1,171 @@
+
+.web-header{
+    display: flex;
+    margin: 0 ;
+    position: relative;
+    height: 70px;
+    width: 1050px;
+}
+
+.web-header h2{
+    font-size: 3rem;
+}
+.web-header-first{
+  margin: 15px 45px;
+}
+
+
+.carousel{
+    display: flex;
+    flex-direction: column;
+}
+.carousel-item{
+    display: flex;
+    flex-direction: row;
+}
+.card{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 184px;
+    height: 244px;
+    background-color: #fff;
+    border-radius: 10%;
+    padding: 16px;
+    margin-right: 60px;
+}
+
+.card-body{
+    
+    height: 100%;
+}
+
+a {
+    cursor: pointer;
+    color: inherit;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+}
+
+.card-img{
+    display: flex;
+    position: relative;
+    height: 75%;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+.img-responsive{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10%;
+    
+}
+
+.card-content{
+    min-height: 62px;
+    color: #333;
+ }
+.card-title{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.card-text{
+    margin: 0;
+}
+
+.playlist-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+     margin-top: 30px;
+}
+
+.playlist-info,.rows{
+    display: flex;
+    flex-direction: column;
+    max-width: 620px;
+    height: 480px;
+    background-color: #12192c;
+    border-radius: 20px;
+    padding: 0px 15px;
+}
+
+.playlist-info{
+    margin: 10px 28px;
+}
+
+.playlist-info-title{
+    display: flex;
+   margin-top: 15px;
+}
+
+.playlist-info-title-header{
+    width: 300px;
+}
+
+.playlist-info-title-seeall{
+    font-size: 12px;
+    margin-top: 17px;
+}
+
+.rows-container{
+    display: flex;
+    margin: 20px 0px;
+}
+
+.rows-container-numer,.rows-container-singer{
+    padding: 10px;
+    margin: 0px;
+}
+
+.rows-container-img{
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+}
+
+.rows-container-singer,.rows-container-info{
+    width: 160px;
+}
+
+.rows-container-song,.rows-container-singer-2{
+    margin: 0;
+}
+
+.rows-container-info{
+    margin-left: 10px;
+}
+
+.rows-container-btna{
+    width: 85px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #28C6F7;
+    margin-top: 10px;
+    display: block;
+}
+
+.rows-container-btna.Gray{
+    background-color: #c8c8c8;
+}
+
+
+
+.rows-container-like{
+    padding: 5px;
+    color: #fff;
+    font-size: 25px;
+}
+
+.rows-container-like.active{
+    color: red;
+}
+
+.rows-container-icon{
+    padding: 15px;
+}

@@ -1,0 +1,159 @@
+.card{
+    display: flex;
+    position: relative;
+    flex-direction:row;
+    width: 1020px;
+    height: 100%;
+    background-color: #12192c;
+    border-radius: 25px;
+    padding: 16px;
+    color: #fff;
+
+}
+
+.card-body{
+    display: flex;
+    position: relative;
+    flex-direction:row;
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    cursor: pointer;
+    color: inherit;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+}
+
+.card-img{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 250px;
+    background-color: #2e3c62;
+    border-radius: 20px;
+    margin: 15px;
+}
+
+#file{
+  width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+#file + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    display: inline-block;
+    cursor: pointer; 
+}
+
+
+
+.img-responsive{
+   height: 250px;
+   width: 250px;
+}
+
+.card-title{
+   border: none;
+   background-color: #2e3c62;
+   font-size: 25px;
+   border-radius: 10px;
+}
+
+ .card-content{
+    min-height: 62px;
+    padding-left: 20px;
+    margin-top: 40px;
+ }
+
+ .musicsong{
+    display: flex;
+    flex-direction: row;
+ }
+
+ .info-musicsong{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .icon-musicsong{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  font-size: 30px;
+ }
+
+ .card-header{
+    font-style: italic;
+    font-size: 20px;
+ }
+
+ .card-header,.card-title,.card-text{
+    margin: 0px;
+ }
+
+ .music-content-create{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+ }
+
+ #first.music-icon{
+    background: #28c3f3;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-left: 0px;
+    margin-top: 10px;
+    font-size: 22px;
+ }
+
+ .music-icon{
+    background: #28c3f3;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin-left: 15px;
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+ }
+
+#icon-first.icon-music{
+    display: flex;
+    position: absolute;
+    left: 35%;
+    top: 30%;
+ }
+
+ .icon-music{
+    display: flex;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+ }
+
+ .playlist-create{
+     position: absolute;
+     right : 0;
+     top: 25rem;
+ }
+
+ .create{
+   background-color:#28c3f3 ;
+   border-radius: 10px;
+   font-size: 1.7rem;
+ }
